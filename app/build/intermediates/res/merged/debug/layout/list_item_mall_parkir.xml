@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:innerRadius="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardUseCompatPadding="false">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_banner"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                app:actualImageResource="@drawable/bg_header_menu"
+                app:actualImageScaleType="centerCrop"
+                app:failureImage="@drawable/bg_header_menu"
+                app:failureImageScaleType="centerCrop"
+                app:layout_constraintDimensionRatio="5:2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:placeholderImage="@drawable/bg_header_menu"
+                app:placeholderImageScaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tv_mall_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Title is Here"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize22sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@id/iv_banner"
+                app:layout_constraintRight_toRightOf="@id/iv_banner"
+                app:layout_constraintTop_toTopOf="@id/iv_banner" />
+
+            <TextView
+                android:id="@+id/tv_mall_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Title is Here"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize12sp"
+                app:layout_constraintLeft_toLeftOf="@id/iv_banner"
+                app:layout_constraintRight_toRightOf="@id/iv_banner"
+                app:layout_constraintTop_toBottomOf="@id/tv_mall_name" />
+
+            <Button
+                android:id="@+id/btn_reserve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/shape_rectangle"
+                android:includeFontPadding="false"
+                android:minHeight="0dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="Reserve a Lot"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/iv_banner"
+                app:layout_constraintLeft_toLeftOf="@id/iv_banner" />
+
+            <LinearLayout
+                android:id="@+id/ll_available"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:theme="@style/ThemeLight"
+                app:layout_constraintLeft_toLeftOf="@id/iv_banner"
+                app:layout_constraintRight_toLeftOf="@+id/iv_pin"
+                app:layout_constraintTop_toBottomOf="@id/iv_banner">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AVAILABLE SPACE"
+                    android:textSize="@dimen/textSize16sp" />
+
+                <TextView
+                    android:id="@+id/tv_space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23/27"
+                    android:textSize="@dimen/textSize34sp" />
+
+            </LinearLayout>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_pin"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/colorAccent"
+                app:layout_constraintBottom_toBottomOf="@id/ll_available"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toRightOf="@id/ll_available"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ll_available" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tl_facilty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:soundEffectsEnabled="false"
+                app:layout_constraintBottom_toTopOf="@+id/ll_short_description"
+                app:layout_constraintTop_toBottomOf="@id/ll_available"
+                app:tabBackground="@android:color/transparent"
+                app:tabIndicatorHeight="0dp">
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/cctv"
+                    android:soundEffectsEnabled="false" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/car"
+                    android:soundEffectsEnabled="false" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/parking"
+                    android:soundEffectsEnabled="false" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/check"
+                    android:soundEffectsEnabled="false" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/ic_more_horiz"
+                    android:soundEffectsEnabled="false" />
+
+
+            </android.support.design.widget.TabLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_short_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tl_facilty">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@color/color_darker_30" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Title is Here"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_short_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:lines="4"
+                    android:text="@string/lorem_ipsum" />
+
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

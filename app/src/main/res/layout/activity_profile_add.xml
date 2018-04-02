@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/coordinator"
+    tools:context=".activities.registration.editprofile.ProfileAddActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/header_detail" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tibe_mobil"
+            android:textSize="@dimen/textSize16sp" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_type_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@android:color/transparent"
+            app:tabIndicatorHeight="0dp">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/ti_mpv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/mpv"
+                android:text="@string/mpv" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/ti_suv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/suv"
+                android:text="@string/suv" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/ti_sedan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/sedan"
+                android:text="@string/sedan" />
+
+        </android.support.design.widget.TabLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/warna_kendaraan"
+            android:textSize="@dimen/textSize14sp" />
+
+        <EditText
+            android:id="@+id/et_warna_mobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/plat_nomor"
+            android:textSize="@dimen/textSize14sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/et_plat_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+        <Button
+            android:id="@+id/btn_simpan_ken"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/simpan"
+            android:background="@color/color_buttondetail"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

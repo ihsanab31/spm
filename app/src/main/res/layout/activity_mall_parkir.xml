@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_detail" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <fragment
+                            android:id="@+id/map"
+                            class="com.google.android.gms.maps.SupportMapFragment"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_constraintDimensionRatio="5:3"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="32dp"
+                            android:visibility="gone"
+                            app:actualImageResource="@drawable/ic_back_white"
+                            app:backgroundImage="@color/colorPrimaryDark"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:roundedCornerRadius="16dp" />
+
+                        <LinearLayout
+                            android:id="@+id/iv_banner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/map">
+
+                            <TextView
+                                android:id="@+id/tv_mall_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Title is Here"
+                                android:textSize="@dimen/textSize22sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_mall_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Title is Here"
+                                android:textSize="@dimen/textSize12sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_available"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/reserved"
+                            android:orientation="vertical"
+                            android:paddingBottom="24dp"
+                            android:paddingLeft="14dp"
+                            android:paddingRight="16dp"
+                            android:paddingTop="20dp"
+                            android:theme="@style/ThemeLight"
+                            app:layout_constraintLeft_toLeftOf="@id/iv_banner"
+                            app:layout_constraintRight_toLeftOf="@+id/iv_pin"
+                            app:layout_constraintTop_toBottomOf="@id/iv_banner">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="AVAILABLE SPACE"
+                                android:textSize="@dimen/textSize16sp" />
+
+                            <TextView
+                                android:id="@+id/tv_space"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="23/27"
+                                android:textSize="@dimen/textSize34sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Last Reservation 6 hours ago"
+                                android:textSize="@dimen/textSize14sp" />
+
+                        </LinearLayout>
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_pin"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:failureImage="@drawable/bg_header_menu"
+                            app:failureImageScaleType="centerCrop"
+                            app:layout_constraintBottom_toBottomOf="@id/ll_available"
+                            app:layout_constraintDimensionRatio="1:1"
+                            app:layout_constraintLeft_toRightOf="@id/ll_available"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/ll_available"
+                            app:placeholderImage="@drawable/bg_header_menu"
+                            app:placeholderImageScaleType="centerCrop" />
+
+                    </android.support.constraint.ConstraintLayout>
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tl_facilty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:soundEffectsEnabled="false"
+                        app:tabBackground="@android:color/transparent"
+                        app:tabIndicatorHeight="0dp">
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:icon="@drawable/cctv"
+                            android:soundEffectsEnabled="false" />
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:icon="@drawable/car"
+                            android:soundEffectsEnabled="false" />
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:icon="@drawable/parking"
+                            android:soundEffectsEnabled="false" />
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:icon="@drawable/check"
+                            android:soundEffectsEnabled="false" />
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:icon="@drawable/ic_more_horiz"
+                            android:soundEffectsEnabled="false" />
+
+                    </android.support.design.widget.TabLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:background="@color/color_darker_30" />
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Title is Here"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_short_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/lorem_ipsum" />
+
+                    <Button
+                        android:id="@+id/btn_reserve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:background="@color/color_buttondetail"
+                        android:text="@string/reserve_a_lot"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+            <FrameLayout
+                android:id="@+id/container_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@android:color/transparent"
+                    android:theme="@style/ThemeDark"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            </FrameLayout>
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

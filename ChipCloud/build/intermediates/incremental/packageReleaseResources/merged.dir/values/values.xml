@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_text">#222222</color>
+    <color name="default_toggle_off">#eeeeee</color>
+    <color name="default_toggle_on">#ffcc00</color>
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="default_textsize">13sp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="inset">3dp</dimen>
+    <dimen name="inset_chip_height">38dp</dimen>
+    <dimen name="min_horizontal_spacing">8dp</dimen>
+    <dimen name="textSize112sp">@dimen/abc_text_size_display_4_material</dimen>
+    <dimen name="textSize12sp">@dimen/abc_text_size_caption_material</dimen>
+    <dimen name="textSize14sp">@dimen/abc_text_size_small_material</dimen>
+    <dimen name="textSize16sp">@dimen/abc_text_size_menu_material</dimen>
+    <dimen name="textSize18sp">@dimen/abc_text_size_medium_material</dimen>
+    <dimen name="textSize20sp">@dimen/abc_text_size_title_material</dimen>
+    <dimen name="textSize22sp">@dimen/abc_text_size_large_material</dimen>
+    <dimen name="textSize24sp">@dimen/abc_text_size_headline_material</dimen>
+    <dimen name="textSize34sp">@dimen/abc_text_size_display_1_material</dimen>
+    <dimen name="textSize45sp">@dimen/abc_text_size_display_2_material</dimen>
+    <dimen name="textSize56sp">@dimen/abc_text_size_display_3_material</dimen>
+    <dimen name="thirtytwo_dp">32dp</dimen>
+    <dimen name="twelve_dp">12dp</dimen>
+    <dimen name="vertical_spacing">8dp</dimen>
+    <string name="app_name">ChipCloud</string>
+</resources>

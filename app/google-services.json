@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "421656545784",
+    "firebase_url": "https://spotme-176509.firebaseio.com",
+    "project_id": "spotme-176509",
+    "storage_bucket": "spotme-176509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421656545784:android:08af4212f9b771f1",
+        "android_client_info": {
+          "package_name": "com.sumroch.spotme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421656545784-cqqn5dvc5ngke86s1teb20cfg6m38517.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPtSKJMt1LdM4BBPV8VtCxtALmzVeReMo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

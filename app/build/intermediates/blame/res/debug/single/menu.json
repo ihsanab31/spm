@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\menu\\edit.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_history_parkir.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\menu\\menu_history_parkir.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_search.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\menu\\menu_search.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navigation.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\menu\\menu_navigation.xml"
+    }
+]

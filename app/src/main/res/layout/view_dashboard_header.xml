@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_dashboard_header"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dashboard_gradient"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/half_normal_margin"
+    android:paddingTop="@dimen/half_normal_margin">
+
+    <RelativeLayout
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dashboard_search_container_height"
+        android:layout_marginEnd="@dimen/normal_margin"
+        android:layout_marginStart="@dimen/normal_margin"
+        android:background="@drawable/bg_rounded_white"
+        android:padding="@dimen/small_margin"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_search" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:layout_toEndOf="@+id/search_icon"
+            android:layout_toStartOf="@+id/scan_icon"
+            android:background="@null"
+            android:hint="@string/search_hint"
+            android:textSize="@dimen/font_size" />
+
+        <ImageView
+            android:id="@+id/scan_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_scan" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/half_normal_margin"
+            android:paddingTop="@dimen/half_normal_margin">
+
+            <Button
+                android:id="@+id/btn_deals"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dashboard_menu_item_height"
+                android:layout_marginStart="@dimen/half_normal_margin"
+                android:background="@drawable/bg_dashboard_menu_item"
+                android:paddingLeft="@dimen/half_normal_margin"
+                android:paddingRight="@dimen/half_normal_margin"
+                android:singleLine="true"
+                android:text="@string/deals"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_recommendation"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dashboard_menu_item_height"
+                android:layout_marginStart="@dimen/half_normal_margin"
+                android:background="@drawable/bg_dashboard_menu_item"
+                android:paddingEnd="@dimen/half_normal_margin"
+                android:paddingStart="@dimen/half_normal_margin"
+                android:singleLine="true"
+                android:text="@string/recommendation"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_popular"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dashboard_menu_item_height"
+                android:layout_marginStart="@dimen/half_normal_margin"
+                android:background="@drawable/bg_dashboard_menu_item"
+                android:paddingLeft="@dimen/half_normal_margin"
+                android:paddingRight="@dimen/half_normal_margin"
+                android:singleLine="true"
+                android:text="@string/popular"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/btn_explorer"
+                android:layout_width="50dp"
+                android:layout_height="@dimen/dashboard_menu_item_height"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/ic_explore"
+                android:tint="@color/white" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

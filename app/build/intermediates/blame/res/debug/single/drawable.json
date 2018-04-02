@@ -1,0 +1,574 @@
+[
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dummy_avatar.jpg",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\dummy_avatar.jpg"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\menu.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mobil.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\mobil.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\putih.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\putih.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chip_divider.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\ChipCloud\\build\\intermediates\\bundles\\default\\res\\drawable\\chip_divider.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_notif_small.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_notif_small.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\belanja.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\belanja.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_profile.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_profile.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inset_toggle_button.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\ChipCloud\\build\\intermediates\\bundles\\default\\res\\drawable\\inset_toggle_button.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\beranda.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\beranda.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_material_button_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\13220326cddf652a694dac9d68260b41e5dfbfbe\\output\\res\\drawable\\mdtp_material_button_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toggle_off.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\ChipCloud\\build\\intermediates\\bundles\\default\\res\\drawable\\toggle_off.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dummy_banner.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\dummy_banner.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\car.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\car.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_parking_mall.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_parking_mall.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pengaturan.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\pengaturan.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_material_button_selected.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\13220326cddf652a694dac9d68260b41e5dfbfbe\\output\\res\\drawable\\mdtp_material_button_selected.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_notif_normal.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_notif_normal.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wallet.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_wallet.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\3716a9ebdaa516126ffb781df5e60e29d98c9831\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cctv.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\cctv.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dummy_ads_b.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\dummy_ads_b.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\3716a9ebdaa516126ffb781df5e60e29d98c9831\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_white.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_circle_white.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dummy_mall.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\dummy_mall.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mpv.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\mpv.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_button_parkir.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_button_parkir.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toggle_on.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\ChipCloud\\build\\intermediates\\bundles\\default\\res\\drawable\\toggle_on.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_dashboard_menu_item.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_dashboard_menu_item.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transaksi.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\transaksi.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_down.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_arrow_down.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrows.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_arrows.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_transaksi.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_transaksi.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cek.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\cek.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_settings.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_settings.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\3716a9ebdaa516126ffb781df5e60e29d98c9831\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_badge_close.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_badge_close.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chef.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_chef.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\3716a9ebdaa516126ffb781df5e60e29d98c9831\\output\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\d0c7e3fdc545b8a04fff051d5a1c694bedfa3332\\output\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\membercard.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\membercard.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_header_menu.jpg",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_header_menu.jpg"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\3716a9ebdaa516126ffb781df5e60e29d98c9831\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dummy_ads.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\dummy_ads.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rounded_white.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_rounded_white.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toggle_button.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\ChipCloud\\build\\intermediates\\bundles\\default\\res\\drawable\\toggle_button.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rectangle.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\shape_rectangle.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profil.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\profil.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\drawable_progress_bar_parkir.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\drawable_progress_bar_parkir.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_circle.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\suv.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\suv.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_dashboard_gradient.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_dashboard_gradient.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_button_red.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_button_red.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\check.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\parkir_grid.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\parkir_grid.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\3716a9ebdaa516126ffb781df5e60e29d98c9831\\output\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jelajah.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\jelajah.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_spinner.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_spinner.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rounded_blue.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_rounded_blue.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lokasi.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\lokasi.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_coupon.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_coupon.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\promosi.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\promosi.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\emty_profile.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\emty_profile.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_divider_spinner.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\selector_divider_spinner.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_corner_bg.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\6d5313d22e509b16a445a6aa9534b1ed461bd233\\output\\res\\drawable\\indicator_corner_bg.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_transport.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_transport.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dummy_mall_cover.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\dummy_mall_cover.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pool_membership_card.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_pool_membership_card.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\3716a9ebdaa516126ffb781df5e60e29d98c9831\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acara.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\acara.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dummy_deals.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\dummy_deals.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_shopping_cart.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_shopping_cart.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uang.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\uang.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_color_enable_disable.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\selector_color_enable_disable.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_button_follow_mall.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_button_follow_mall.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_done_background_color_dark.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\13220326cddf652a694dac9d68260b41e5dfbfbe\\output\\res\\drawable\\mdtp_done_background_color_dark.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\member.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\member.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_deals_badge.xml",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\bg_deals_badge.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\keluar.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\keluar.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\parking.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\parking.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\28410efccf61e22bbdb15bf6fed517967be0a555\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\2b4226e94caf93b613a65898d080793fd1eec11e\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\iihsa\\.android\\build-cache\\3716a9ebdaa516126ffb781df5e60e29d98c9831\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sedan.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\sedan.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigasi.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\navigasi.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\parkir.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\parkir.png"
+    },
+    {
+        "merged": "E:\\Project Selesai\\project_spotme_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_fruit.png",
+        "source": "E:\\Project Selesai\\project_spotme_android\\app\\src\\main\\res\\drawable\\ic_fruit.png"
+    }
+]

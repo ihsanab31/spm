@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sumroch.spotme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".SpotMe"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBoUj6drvgDvpG9bdqpdvM6qoCSETFf9vY" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c13a3755ed60eb12d0e394cf4440829fb1da71a0" />
+        <!-- <meta-data -->
+        <!-- android:name="com.google.firebase.messaging.default_notification_icon" -->
+        <!-- android:resource="@drawable/ic_coupon" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.firebase.messaging.default_notification_color" -->
+        <!-- android:resource="@color/colorAccent" /> -->
+
+
+        <!-- <activity -->
+        <!-- android:name=".activities.dashboard.DashboardActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- <service android:name=".services.beacon.firebase.MyFirebaseMessagingService"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <!-- <service android:name=".services.beacon.firebase.MyFirebaseInstanceIDService"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+
+        <activity
+            android:name=".activities.dashboard.DashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.gridmenu.GridMenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.parkir.ListMallParkirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.parkir.MallParkirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/transaksi" />
+        <activity
+            android:name=".activities.registration.RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.registration.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.registration.SignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.frontier.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.notification.NotificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/transaksi" />
+
+        <receiver android:name=".services.beacon.BluetoothStateReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.gridmenu.parkir.ParkirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.event.EventActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.event.DetailEventActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.event.EventDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.parkir.ReserveParkirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".activities.parkir.AvailableParkirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentTheme" />
+
+        <service android:name=".services.beacon.SpotMeService" />
+
+        <activity
+            android:name=".activities.notification.NotificationDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".services.beacon.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <meta-data -->
+        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+        <!-- android:value="@string/facebook_app_id" /> -->
+
+
+        <!-- <activity -->
+        <!-- android:name="com.facebook.FacebookActivity" -->
+        <!-- android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" -->
+        <!-- android:label="@string/app_name" /> -->
+        <!--  -->
+        <!-- <activity -->
+        <!-- android:name="com.facebook.CustomTabActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.VIEW" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+
+
+        <!-- <data android:scheme="@string/fb_login_protocol_scheme" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!-- <activity android:namInroActivityvity"></activity> -->
+        <activity
+            android:name=".activities.registration.editprofile.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.registration.editprofile.EditPhotoActivity"
+            android:label="Edit Profile"
+            android:theme="@style/foto" />
+        <activity
+            android:name=".activities.registration.editprofile.ProfileActivity"
+            android:label="Profile"
+            android:theme="@style/transaksi" />
+        <activity
+            android:name=".activities.gridmenu.MemberActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activities.parkir.history.DetailParkirActivity"
+            android:label="Detail Parkir"
+            android:theme="@style/transaksi" />
+        <activity
+            android:name=".activities.parkir.history.HistoryParkirActivity"
+            android:theme="@style/transaksi" />
+        <activity
+            android:name=".activities.registration.editprofile.ProfileAkunActivity"
+            android:theme="@style/transaksi" />
+        <activity
+            android:name=".activities.registration.editprofile.ProfileKendaraanActivity"
+            android:theme="@style/transaksi" />
+        <activity
+            android:name=".activities.registration.editprofile.ProfileAddActivity"
+            android:theme="@style/transaksi" />
+        <activity
+            android:name=".activities.registration.editprofile.ProfileKontaActivity"
+            android:theme="@style/transaksi" />
+        <activity
+            android:name=".activities.registration.editprofile.ProfilePassworActivity"
+            android:theme="@style/transaksi" />
+        <activity android:name=".dialog.DialogParkir"
+            android:theme="@style/myDialog"/>
+    </application>
+
+</manifest>

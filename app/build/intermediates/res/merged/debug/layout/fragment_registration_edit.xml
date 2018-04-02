@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/style_form.title"
+        android:text="Registration" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#80FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp">
+
+            <EditText
+                android:id="@+id/et_username_edit"
+                style="@style/style_form.edit_text"
+                android:hint="Username"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailSubject" />
+
+            <EditText
+                android:id="@+id/et_email_edit"
+                style="@style/style_form.edit_text"
+                android:hint="Email address"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/et_password_edit"
+                style="@style/style_form.edit_text"
+                android:hint="Password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/et_confirm_password_edit"
+                style="@style/style_form.edit_text"
+                android:hint="Confirm Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btn_continue"
+                style="@style/style_form.button"
+                android:text="Continue" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

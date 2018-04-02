@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/mall_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/half_normal_margin"
+            android:background="@drawable/bg_badge_close"
+            android:padding="@dimen/small_margin"
+            android:src="@drawable/ic_close"
+            android:tint="@color/white" />
+
+        <ViewAnimator
+            android:id="@+id/mall_animator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/explorer_mall_container_height"
+            android:background="@color/grey_001">
+
+            <ProgressBar
+                android:layout_width="@dimen/small_progress_bar"
+                android:layout_height="@dimen/small_progress_bar"
+                android:layout_gravity="center" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_mall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/half_normal_margin"
+                android:paddingTop="@dimen/half_normal_margin" />
+        </ViewAnimator>
+    </LinearLayout>
+</RelativeLayout>

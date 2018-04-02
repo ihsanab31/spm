@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/style_form.title"
+        android:text="Profile Information" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#80FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/iv_picture"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/elevation_small"
+                    android:elevation="@dimen/elevation_small"
+                    android:src="@drawable/emty_profile"
+                    app:roundAsCircle="true"
+                    app:failureImage="@drawable/emty_profile"
+                    app:placeholderImage="@drawable/emty_profile"
+                    app:roundingBorderWidth="2dp"
+                    app:roundingBorderColor="#80FFFFFF" />
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/iv_picture_edit"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:elevation="@dimen/elevation_small"
+                    app:placeholderImage="@drawable/ic_edit_profile"
+                    app:roundAsCircle="true"
+                    app:backgroundImage="@color/color_darker_30"
+                    app:roundingBorderWidth="2dp"
+                    app:roundingBorderColor="#80FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_picture"
+                    app:layout_constraintRight_toRightOf="@id/iv_picture" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/et_name"
+                style="@style/style_form.edit_text"
+                android:imeOptions="actionNext"
+                android:hint="Name" />
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/et_last_name"
+                style="@style/style_form.edit_text"
+                android:imeOptions="actionNext"
+                android:hint="Last Name" />
+
+            <EditText
+                android:id="@+id/et_phone_number"
+                style="@style/style_form.edit_text"
+                android:imeOptions="actionNext"
+                android:hint="Phone Number"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/color_darker_30"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_arrow_bottom_white"
+                    android:drawablePadding="12dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:longClickable="false"
+                    android:padding="12dp"
+                    android:text="Sex"
+                    android:textColor="@color/white" />
+
+                <RadioGroup
+                    android:id="@+id/rg_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp">
+
+                    <RadioButton
+                        android:id="@+id/rb_man"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:buttonTint="@color/white"
+                        android:paddingLeft="8dp"
+                        android:text="Man"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/textSize18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_woman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:buttonTint="@color/white"
+                        android:paddingLeft="8dp"
+                        android:text="Woman"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/textSize18sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_dob"
+                style="@style/style_form.edit_text.popup"
+                android:hint="Date of Birth" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_picture"-->
+            <!--style="@style/style_form.edit_text.popup"-->
+            <!--android:hint="Upload Picture From Camera or Gallery" />-->
+
+            <Button
+                android:id="@+id/btn_continue"
+                style="@style/style_form.button"
+                android:text="Continue" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

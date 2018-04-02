@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fisk.chipcloud.ToggleChip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toggle_button"
+    android:drawablePadding="4dp"
+    android:gravity="center"
+    android:maxLines="1"
+    android:minHeight="@dimen/chip_height"
+    android:minWidth="50dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:singleLine="true"
+    android:textColor="@color/default_text"
+    android:textSize="@dimen/textSize18sp" />

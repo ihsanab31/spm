@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dashboard_gradient"
+    tools:context=".activities.registration.RegistrationActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:fitsSystemWindows="true"
+        tools:ignore="MissingPrefix">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Edit Profile"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize34sp"
+                android:textStyle="bold" />
+
+            <com.layer_net.stepindicator.StepIndicator
+                android:id="@+id/step_indicator"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:siBackgroundColor="@color/background_default"
+                app:siCurrentStepColor="@color/background_default"
+                app:siRadius="16dp"
+                app:siStepColor="@color/step_default"
+                app:siStepCount="3"
+                app:siStrokeWidth="4dp"
+                app:siTextColor="#FFFFFF" />
+
+            <ProgressBar
+                android:id="@+id/pb_indicator"
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:elevation="@dimen/elevation_small"
+                android:max="3"
+                android:progress="1"
+                android:progressDrawable="@drawable/drawable_progress_bar_parkir"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_dashboard_gradient"
+        tools:contecom.sumroch.spotme.activities.registrationtion.RegistrationActivity">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            tools:ignore="MissingPrefix">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/style_form.title"
+                        android:layout_marginTop="12dp"
+                        android:text="Profile Information" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#80FFFFFF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp">
+
+                        <android.support.constraint.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp">
+
+                            <com.facebook.drawee.view.SimpleDraweeView
+                                android:id="@+id/iv_picture"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="@dimen/elevation_small"
+                                android:elevation="@dimen/elevation_small"
+                                android:src="@drawable/emty_profile"
+                                app:failureImage="@drawable/emty_profile"
+                                app:placeholderImage="@drawable/emty_profile"
+                                app:roundAsCircle="true"
+                                app:roundingBorderColor="#80FFFFFF"
+                                app:roundingBorderWidth="2dp" />
+
+                            <com.facebook.drawee.view.SimpleDraweeView
+                                android:id="@+id/iv_picture_edit"
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:elevation="@dimen/elevation_small"
+                                app:backgroundImage="@color/color_darker_30"
+                                app:layout_constraintBottom_toBottomOf="@id/iv_picture"
+                                app:layout_constraintRight_toRightOf="@id/iv_picture"
+                                app:placeholderImage="@drawaic_edit_profileedit"
+                                app:roundAsCircle="true"
+                                app:roundingBorderColor="#80FFFFFF"
+                                app:roundingBorderWidth="2dp" />
+
+                        </android.support.constraint.ConstraintLayout>
+
+                        <EditText
+                            android:id="@+id/et_name"
+                            style="@style/style_form.edit_text"
+                            android:hint="Name"
+                            android:imeOptions="actionNext" />
+
+                        <EditText
+                            android:id="@+id/et_last_name"
+                            style="@style/style_form.edit_text"
+                            android:hint="Last Name"
+                            android:imeOptions="actionNext"
+                            android:visibility="gone" />
+
+                        <EditText
+                            android:id="@+id/et_phone_number"
+                            style="@style/style_form.edit_text"
+                            android:hint="Phone Number"
+                            android:imeOptions="actionNext"
+                            android:inputType="number" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:background="@color/color_darker_30"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/et_sex"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:drawableLeft="@drawable/ic_arrow_bottom_white"
+                                android:drawablePadding="12dp"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:longClickable="false"
+                                android:padding="12dp"
+                                android:text="Sex"
+                                android:textColor="@color/white" />
+
+                            <RadioGroup
+                                android:id="@+id/rg_sex"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp">
+
+                                <RadioButton
+                                    android:id="@+id/rb_man"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:buttonTint="@color/white"
+                                    android:paddingLeft="8dp"
+                                    android:text="Man"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="@dimen/textSize18sp" />
+
+                                <RadioButton
+                                    android:id="@+id/rb_woman"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="16dp"
+                                    android:buttonTint="@color/white"
+                                    android:paddingLeft="8dp"
+                                    android:text="Woman"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="@dimen/textSize18sp" />
+
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/et_dob"
+                            style="@style/style_form.edit_text.popup"
+                            android:hint="Date of Birth" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/style_form.title"
+                            android:layout_marginTop="12dp"
+                            android:text="Tell us about your Interests" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="#80FFFFFF" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp"
+                            android:paddingTop="12dp">
+
+                            <com.google.android.flexbox.FlexboxLayout
+                                android:id="@+id/flexbox"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                app:alignContent="space_around"
+                                app:alignItems="flex_start"
+                                app:dividerDrawable="@drawable/chip_divider"
+                                app:flexWrap="wrap"
+                                app:justifyContent="center"
+                                app:showDivider="middle" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+
+    </FrameLayout>-->

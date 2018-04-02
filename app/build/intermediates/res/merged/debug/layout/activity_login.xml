@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/two_normal_margin"
+    android:paddingLeft="@dimen/three_normal_margin"
+    android:paddingRight="@dimen/three_normal_margin"
+    android:paddingTop="@dimen/two_normal_margin">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/login_title_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:gravity="center"
+        android:text="@string/app_desc"
+        android:textColor="@color/black"
+        android:textSize="@dimen/login_desc_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_sign_up_facebook"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fb_blue"
+            android:foreground="?selectableItemBackground"
+            android:text="FACEBOOK"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_sign_up_google"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_normal_margin"
+            android:background="@color/google_red"
+            android:foreground="?selectableItemBackground"
+            android:text="GOOGLE"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_normal_margin"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/bt_sign_in"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/quarter_normal_margin"
+                android:layout_weight="1"
+                android:background="@color/grey_001"
+                android:foreground="?selectableItemBackground"
+                android:text="@string/sign_in"
+                android:textColor="@color/white" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/bt_sign_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/quarter_normal_margin"
+                android:layout_weight="1"
+                android:background="@color/dark_grey_001"
+                android:foreground="?selectableItemBackground"
+                android:text="@string/sign_up"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

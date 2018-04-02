@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dashboard_gradient"
+    tools:context=".activities.registration.RegistrationActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:fitsSystemWindows="true"
+        tools:ignore="MissingPrefix">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize45sp"
+                android:textStyle="bold" />
+
+            <com.layer_net.stepindicator.StepIndicator
+                android:id="@+id/step_indicator"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:siBackgroundColor="@color/background_default"
+                app:siCurrentStepColor="@color/background_default"
+                app:siRadius="16dp"
+                app:siStepColor="@color/step_default"
+                app:siStepCount="3"
+                app:siStrokeWidth="4dp"
+                app:siTextColor="#FFFFFF" />
+
+            <ProgressBar
+                android:id="@+id/pb_indicator"
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:elevation="@dimen/elevation_small"
+                android:max="3"
+                android:progress="1"
+                android:progressDrawable="@drawable/drawable_progress_bar_parkir"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

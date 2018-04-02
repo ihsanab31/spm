@@ -1,0 +1,725 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:2:1-219:12
+	package
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:15:5-67
+MERGED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:15:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\iihsa\.android\build-cache\5207edffd94785eb0b8d12154623a2dcc6c191ac\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:20:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\iihsa\.android\build-cache\76f74829abd942066d3c9867f48ccf8fa0cb2838\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\iihsa\.android\build-cache\223ca3b9809e34dc4fa2edd557200dea455c2b45\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\iihsa\.android\build-cache\3c6b15110426d418069dc308d4c0718ad6652f18\output\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\iihsa\.android\build-cache\e0a9e103a38c04990e1926deb1429a441ed8a512\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\iihsa\.android\build-cache\e4aad41ee6225f5faa06f87feae06e7fcd9aa161\output\AndroidManifest.xml:29:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\iihsa\.android\build-cache\45235219e28db5dc186b1d8f4ca78b26fe62cfbe\output\AndroidManifest.xml:20:5-66
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\iihsa\.android\build-cache\6d5313d22e509b16a445a6aa9534b1ed461bd233\output\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\iihsa\.android\build-cache\6d5313d22e509b16a445a6aa9534b1ed461bd233\output\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:10:22-78
+application
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:12:5-217:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\iihsa\.android\build-cache\eb79bc17a237854f4199ed4d9990d31518cb605a\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\iihsa\.android\build-cache\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\iihsa\.android\build-cache\91d7e0a7199835f472fab96c9c794b78e35a96ce\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\iihsa\.android\build-cache\5bb15352630e4989311f3d848bfc43081ea0708f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:percent:25.3.1] C:\Users\iihsa\.android\build-cache\85523330dd92909a08bd1efbf49742121f1ca488\output\AndroidManifest.xml:26:5-20
+MERGED from [com.estimote:sdk:1.0.8] C:\Users\iihsa\.android\build-cache\5c7f8f8378b8e7436b0e84e1a09fb88a4b9713f7\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:22:5-27:19
+MERGED from [com.estimote:management-sdk:0.0.1] C:\Users\iihsa\.android\build-cache\bc0eab972491739eafe75b996e20c09f40cf3907\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.estimote:cloud-plugin:0.0.1] C:\Users\iihsa\.android\build-cache\a3a33df7bd9e347c53f925a6e445a81ebd8bd5ea\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.estimote:internal-plugins-api:0.0.1] C:\Users\iihsa\.android\build-cache\e97c0eaee7c65c6459bdd1659a8bb77b5e3ce62d\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:22:5-32:19
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\iihsa\.android\build-cache\f68da60a28752c60fa7d201557e26a587c63b051\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\iihsa\.android\build-cache\5207edffd94785eb0b8d12154623a2dcc6c191ac\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\iihsa\.android\build-cache\263372c79e309ab33900ae282cc61417d1da45fe\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\iihsa\.android\build-cache\0aaf268cc8660899cc9de000f8614bb71c9eb301\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\iihsa\.android\build-cache\fdfca60abbb7838c65cdd1089d375d55ad0425b8\output\AndroidManifest.xml:7:5-11:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\iihsa\.android\build-cache\76f74829abd942066d3c9867f48ccf8fa0cb2838\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\iihsa\.android\build-cache\223ca3b9809e34dc4fa2edd557200dea455c2b45\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\iihsa\.android\build-cache\3c6b15110426d418069dc308d4c0718ad6652f18\output\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\iihsa\.android\build-cache\e0a9e103a38c04990e1926deb1429a441ed8a512\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\iihsa\.android\build-cache\e4aad41ee6225f5faa06f87feae06e7fcd9aa161\output\AndroidManifest.xml:31:5-20
+MERGED from [com.tsengvn:typekit:1.0.1] C:\Users\iihsa\.android\build-cache\d87def66d1c86d229482073e8f11d8c2372799d7\output\AndroidManifest.xml:11:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\iihsa\.android\build-cache\4e6f08683e28625c8eb060857f21b47808c67d7b\output\AndroidManifest.xml:9:5-20
+MERGED from [com.balysv.materialmenu:material-menu:2.0.0] C:\Users\iihsa\.android\build-cache\c72aede234b677a00a5a3e59c246c74607807bd7\output\AndroidManifest.xml:10:5-20
+MERGED from [com.github.jd-alexander:library:1.1.0] C:\Users\iihsa\.android\build-cache\41b2be32d5bd38986d8db65a794af5e2e6e2fa3d\output\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\iihsa\.android\build-cache\45235219e28db5dc186b1d8f4ca78b26fe62cfbe\output\AndroidManifest.xml:24:5-19
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\iihsa\.android\build-cache\2104ff685d307e52dca63102f0623b2eba660679\output\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\iihsa\.android\build-cache\3827dc899aa47ccc2cbb73036a04d76b02962cd0\output\AndroidManifest.xml:11:5-20
+MERGED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:11:5-21:19
+MERGED from [com.wdullaer:materialdatetimepicker:3.4.0] C:\Users\iihsa\.android\build-cache\13220326cddf652a694dac9d68260b41e5dfbfbe\output\AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\iihsa\.android\build-cache\28410efccf61e22bbdb15bf6fed517967be0a555\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\iihsa\.android\build-cache\27b2bc9a406d6bbcbaabc1d5207ab4faa4015703\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\iihsa\.android\build-cache\28292cc3c1ec532fc492d962778ef62e74274a01\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\iihsa\.android\build-cache\34d58fe444b3ca2f6ddfd68c9572dec153286600\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\iihsa\.android\build-cache\2b4226e94caf93b613a65898d080793fd1eec11e\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\iihsa\.android\build-cache\315878c491474d548e8120bf4cb55be26b31d3c1\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\iihsa\.android\build-cache\9427832c4f5521d5f731a22b48055745e6176cea\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\iihsa\.android\build-cache\3716a9ebdaa516126ffb781df5e60e29d98c9831\output\AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\iihsa\.android\build-cache\7698978826ebd28ded06660a418d867d642cd9e2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\iihsa\.android\build-cache\1872da9b1d3b4f3aa0cf11020dd54292ec86b606\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\iihsa\.android\build-cache\6bb043df8c85390744ed77e1ec50cbb844f386cb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\iihsa\.android\build-cache\c4ad54f6758648b0dd3608249fc4cf0eadcc9558\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\iihsa\.android\build-cache\a53e9ecded16d2958af76e57faf238727c4d259d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\iihsa\.android\build-cache\a0b15fcb034c3401d9e10f24d7786c635590c3f4\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:16:9-41
+	android:supportsRtl
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:19:9-35
+	android:roundIcon
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:18:9-48
+	android:allowBackup
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:15:9-43
+	android:persistent
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:17:9-34
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:13:9-31
+meta-data#com.google.android.geo.API_KEY
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:21:9-23:71
+	android:value
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:23:13-68
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:22:13-58
+meta-data#io.fabric.ApiKey
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:24:9-26:72
+	android:value
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:25:13-44
+activity#com.sumroch.spotme.activities.dashboard.DashboardActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:57:9-60:59
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:59:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:60:13-56
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:58:13-67
+activity#com.sumroch.spotme.activities.gridmenu.GridMenuActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:61:9-64:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:63:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:64:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:62:13-65
+activity#com.sumroch.spotme.activities.parkir.ListMallParkirActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:65:9-68:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:67:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:68:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:66:13-69
+activity#com.sumroch.spotme.activities.parkir.MallParkirActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:69:9-72:48
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:71:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:72:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:70:13-65
+activity#com.sumroch.spotme.activities.registration.RegistrationActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:73:9-76:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:75:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:76:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:74:13-73
+activity#com.sumroch.spotme.activities.registration.ForgotPasswordActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:77:9-80:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:79:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:80:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:78:13-75
+activity#com.sumroch.spotme.activities.registration.SignInActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:81:9-84:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:83:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:84:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:82:13-67
+activity#com.sumroch.spotme.activities.frontier.LoginActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:85:9-93:20
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:86:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:88:13-92:29
+action#android.intent.action.MAIN
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:89:17-69
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:89:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:91:17-77
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:91:27-74
+activity#com.sumroch.spotme.activities.notification.NotificationActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:94:9-97:48
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:96:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:97:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:95:13-73
+receiver#com.sumroch.spotme.services.beacon.BluetoothStateReceiver
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:99:9-103:20
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:99:19-73
+intent-filter#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:100:13-102:29
+action#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:101:17-89
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:101:25-86
+activity#com.sumroch.spotme.activities.gridmenu.parkir.ParkirActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:105:9-108:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:107:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:108:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:106:13-70
+activity#com.sumroch.spotme.activities.event.EventActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:109:9-112:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:111:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:112:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:110:13-59
+activity#com.sumroch.spotme.activities.event.DetailEventActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:113:9-116:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:115:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:116:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:114:13-65
+activity#com.sumroch.spotme.activities.event.EventDetailActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:117:9-120:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:119:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:120:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:118:13-65
+activity#com.sumroch.spotme.activities.parkir.ReserveParkirActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:121:9-124:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:123:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:124:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:122:13-68
+activity#com.sumroch.spotme.activities.parkir.AvailableParkirActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:125:9-128:55
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:127:13-49
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:128:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:126:13-70
+service#com.sumroch.spotme.services.beacon.SpotMeService
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:130:9-66
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:130:18-63
+activity#com.sumroch.spotme.activities.notification.NotificationDetailActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:132:9-134:52
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:133:13-79
+receiver#com.sumroch.spotme.services.beacon.BootReceiver
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:136:9-140:20
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:136:19-63
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:137:13-139:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:138:17-79
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:138:25-76
+activity#com.facebook.FacebookActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:167:9-171:75
+	android:label
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:170:13-45
+	android:configChanges
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:169:13-96
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:171:13-72
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:168:13-57
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:173:9-175:55
+	android:value
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:175:13-52
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:174:13-58
+activity#com.sumroch.spotme.activities.registration.editprofile.EditProfileActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:178:9-181:47
+	android:label
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:180:13-64
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:181:13-44
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:179:13-84
+activity#com.sumroch.spotme.activities.registration.editprofile.EditPhotoActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:182:9-185:43
+	android:label
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:184:13-41
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:185:13-40
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:183:13-82
+activity#com.sumroch.spotme.activities.registration.editprofile.ProfileActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:186:9-189:48
+	android:label
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:188:13-36
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:189:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:187:13-80
+activity#com.sumroch.spotme.activities.gridmenu.MemberActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:190:9-192:53
+	android:screenOrientation
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:192:13-50
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:191:13-63
+activity#com.sumroch.spotme.activities.parkir.history.DetailParkirActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:193:9-196:48
+	android:label
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:195:13-42
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:196:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:194:13-75
+activity#com.sumroch.spotme.activities.parkir.history.HistoryParkirActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:197:9-199:48
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:199:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:198:13-76
+activity#com.sumroch.spotme.activities.registration.editprofile.ProfileAkunActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:200:9-202:48
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:202:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:201:13-84
+activity#com.sumroch.spotme.activities.registration.editprofile.ProfileKendaraanActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:203:9-205:48
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:205:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:204:13-89
+activity#com.sumroch.spotme.activities.registration.editprofile.ProfileAddActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:206:9-208:48
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:208:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:207:13-83
+activity#com.sumroch.spotme.activities.registration.editprofile.ProfileKontaActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:209:9-211:48
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:211:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:210:13-85
+activity#com.sumroch.spotme.activities.registration.editprofile.ProfilePassworActivity
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:212:9-214:48
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:214:13-45
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:213:13-87
+activity#com.sumroch.spotme.dialog.DialogParkir
+ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:215:9-216:46
+	android:theme
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:216:13-44
+	android:name
+		ADDED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:215:19-54
+uses-sdk
+INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [io.realm:realm-android-library:3.3.0] C:\Users\iihsa\.android\build-cache\1f126ce2579dafd216a88087109ac981e00b1276\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\iihsa\.android\build-cache\e8a54d4cd9bc5310f3d4b10d4e1822f3dbea977d\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\iihsa\.android\build-cache\eb79bc17a237854f4199ed4d9990d31518cb605a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\iihsa\.android\build-cache\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\iihsa\.android\build-cache\91d7e0a7199835f472fab96c9c794b78e35a96ce\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\iihsa\.android\build-cache\5bb15352630e4989311f3d848bfc43081ea0708f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\iihsa\.android\build-cache\875e8f8375353223a35cb7f2a8da6b8ae1c0506e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:percent:25.3.1] C:\Users\iihsa\.android\build-cache\85523330dd92909a08bd1efbf49742121f1ca488\output\AndroidManifest.xml:20:5-43
+MERGED from [com.estimote:sdk:1.0.8] C:\Users\iihsa\.android\build-cache\5c7f8f8378b8e7436b0e84e1a09fb88a4b9713f7\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:7:5-43
+MERGED from [com.estimote:management-sdk:0.0.1] C:\Users\iihsa\.android\build-cache\bc0eab972491739eafe75b996e20c09f40cf3907\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:cloud-plugin:0.0.1] C:\Users\iihsa\.android\build-cache\a3a33df7bd9e347c53f925a6e445a81ebd8bd5ea\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:internal-plugins-api:0.0.1] C:\Users\iihsa\.android\build-cache\e97c0eaee7c65c6459bdd1659a8bb77b5e3ce62d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\iihsa\.android\build-cache\896dafabc9ed84d347674fa0df091dd9396fc57e\output\AndroidManifest.xml:19:5-43
+MERGED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:7:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\iihsa\.android\build-cache\26bb3ddb4460668b17cbdf1d7ac8ae7c7f4ae6a3\output\AndroidManifest.xml:5:5-43
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] C:\Users\iihsa\.android\build-cache\d0c7e3fdc545b8a04fff051d5a1c694bedfa3332\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\iihsa\.android\build-cache\f68da60a28752c60fa7d201557e26a587c63b051\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\iihsa\.android\build-cache\5207edffd94785eb0b8d12154623a2dcc6c191ac\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\iihsa\.android\build-cache\263372c79e309ab33900ae282cc61417d1da45fe\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\iihsa\.android\build-cache\0aaf268cc8660899cc9de000f8614bb71c9eb301\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\iihsa\.android\build-cache\fdfca60abbb7838c65cdd1089d375d55ad0425b8\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\iihsa\.android\build-cache\9c59df2c7b02e0f76ae4f5c4d9b1b9349ef3f2a1\output\AndroidManifest.xml:18:5-42
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\iihsa\.android\build-cache\76f74829abd942066d3c9867f48ccf8fa0cb2838\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\iihsa\.android\build-cache\223ca3b9809e34dc4fa2edd557200dea455c2b45\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\iihsa\.android\build-cache\3c6b15110426d418069dc308d4c0718ad6652f18\output\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\iihsa\.android\build-cache\e0a9e103a38c04990e1926deb1429a441ed8a512\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\iihsa\.android\build-cache\e4aad41ee6225f5faa06f87feae06e7fcd9aa161\output\AndroidManifest.xml:27:5-43
+MERGED from [com.tsengvn:typekit:1.0.1] C:\Users\iihsa\.android\build-cache\d87def66d1c86d229482073e8f11d8c2372799d7\output\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\iihsa\.android\build-cache\4e6f08683e28625c8eb060857f21b47808c67d7b\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.balysv.materialmenu:material-menu:2.0.0] C:\Users\iihsa\.android\build-cache\c72aede234b677a00a5a3e59c246c74607807bd7\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.jd-alexander:library:1.1.0] C:\Users\iihsa\.android\build-cache\41b2be32d5bd38986d8db65a794af5e2e6e2fa3d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\iihsa\.android\build-cache\45235219e28db5dc186b1d8f4ca78b26fe62cfbe\output\AndroidManifest.xml:23:5-43
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\iihsa\.android\build-cache\2104ff685d307e52dca63102f0623b2eba660679\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\iihsa\.android\build-cache\3827dc899aa47ccc2cbb73036a04d76b02962cd0\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.uphyca:stetho_realm:2.1.0] C:\Users\iihsa\.android\build-cache\6e7fe81a747504d83362ae8d7d1bbd6db157a152\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.bottlerocketstudios:barcode:1.0.3] C:\Users\iihsa\.android\build-cache\4992f2978172d51b6dca7919d126f319db02a6a4\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.layer-net:step-indicator:1.1.0] C:\Users\iihsa\.android\build-cache\bbfaa02f9b4941519793f52e0ac7e786ec690fff\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:7:5-9:41
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\iihsa\.android\build-cache\e65c9a06d7b9dac3ff99375011eca4830cc83dbc\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.0.1] C:\Users\iihsa\.android\build-cache\efbf457a58715acd15cd657706fbb24d6e430dca\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.wdullaer:materialdatetimepicker:3.4.0] C:\Users\iihsa\.android\build-cache\13220326cddf652a694dac9d68260b41e5dfbfbe\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android:flexbox:0.2.5] C:\Users\iihsa\.android\build-cache\6954fc49fce0cfcdb2c47764481aea536d4b926d\output\AndroidManifest.xml:23:5-25:41
+MERGED from [project_spotme_android:ChipCloud:unspecified] E:\Project Selesai\project_spotme_android\ChipCloud\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\iihsa\.android\build-cache\28410efccf61e22bbdb15bf6fed517967be0a555\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\iihsa\.android\build-cache\27b2bc9a406d6bbcbaabc1d5207ab4faa4015703\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\iihsa\.android\build-cache\28292cc3c1ec532fc492d962778ef62e74274a01\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\iihsa\.android\build-cache\34d58fe444b3ca2f6ddfd68c9572dec153286600\output\AndroidManifest.xml:7:5-43
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\iihsa\.android\build-cache\6d5313d22e509b16a445a6aa9534b1ed461bd233\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] C:\Users\iihsa\.android\build-cache\ddea33f5e278b0eebcfcd4795fa67e4d364a345d\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\iihsa\.android\build-cache\2b4226e94caf93b613a65898d080793fd1eec11e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\iihsa\.android\build-cache\315878c491474d548e8120bf4cb55be26b31d3c1\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\iihsa\.android\build-cache\9427832c4f5521d5f731a22b48055745e6176cea\output\AndroidManifest.xml:17:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\iihsa\.android\build-cache\3716a9ebdaa516126ffb781df5e60e29d98c9831\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\iihsa\.android\build-cache\7698978826ebd28ded06660a418d867d642cd9e2\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\iihsa\.android\build-cache\1872da9b1d3b4f3aa0cf11020dd54292ec86b606\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\iihsa\.android\build-cache\6bb043df8c85390744ed77e1ec50cbb844f386cb\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\iihsa\.android\build-cache\c4ad54f6758648b0dd3608249fc4cf0eadcc9558\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\iihsa\.android\build-cache\a53e9ecded16d2958af76e57faf238727c4d259d\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\iihsa\.android\build-cache\a0b15fcb034c3401d9e10f24d7786c635590c3f4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\iihsa\.android\build-cache\8e5b96ba30f4f6b144d343b8d2a946228af37353\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\iihsa\.android\build-cache\dde32ca7eb2bc3d484c9975014ff78d63bd6aad6\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\iihsa\.android\build-cache\436e3d6cf99886be2e3bdf0ff6e7a0afb9070a3b\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\iihsa\.android\build-cache\02ced862603f17ee8e63d8f19b9b71980d1807a2\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\iihsa\.android\build-cache\f050899ca7dd193d840a9297715a3fe815bccc6b\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\iihsa\.android\build-cache\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\iihsa\.android\build-cache\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\iihsa\.android\build-cache\91d7e0a7199835f472fab96c9c794b78e35a96ce\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\iihsa\.android\build-cache\5bb15352630e4989311f3d848bfc43081ea0708f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\iihsa\.android\build-cache\875e8f8375353223a35cb7f2a8da6b8ae1c0506e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:percent:25.3.1] C:\Users\iihsa\.android\build-cache\85523330dd92909a08bd1efbf49742121f1ca488\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\iihsa\.android\build-cache\28410efccf61e22bbdb15bf6fed517967be0a555\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\iihsa\.android\build-cache\27b2bc9a406d6bbcbaabc1d5207ab4faa4015703\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\iihsa\.android\build-cache\28292cc3c1ec532fc492d962778ef62e74274a01\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\iihsa\.android\build-cache\7698978826ebd28ded06660a418d867d642cd9e2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\iihsa\.android\build-cache\1872da9b1d3b4f3aa0cf11020dd54292ec86b606\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\iihsa\.android\build-cache\6bb043df8c85390744ed77e1ec50cbb844f386cb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\iihsa\.android\build-cache\c4ad54f6758648b0dd3608249fc4cf0eadcc9558\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\iihsa\.android\build-cache\a53e9ecded16d2958af76e57faf238727c4d259d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\iihsa\.android\build-cache\a0b15fcb034c3401d9e10f24d7786c635590c3f4\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\iihsa\.android\build-cache\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\iihsa\.android\build-cache\95d39d3d7236ca3cc674ecd6d5a1dc23be84e787\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:10:5-68
+MERGED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:11:5-74
+MERGED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:11:22-71
+uses-permission-sdk-23
+ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:13:5-88
+	android:name
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:13:29-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:16:5-79
+MERGED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:16:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\iihsa\.android\build-cache\5207edffd94785eb0b8d12154623a2dcc6c191ac\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\iihsa\.android\build-cache\45235219e28db5dc186b1d8f4ca78b26fe62cfbe\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:16:22-76
+uses-feature#android.hardware.bluetooth_le
+ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:18:5-20:36
+MERGED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:19:9-53
+service#com.estimote.mgmtsdk.connection.strategy.DeviceConnectionProviderService
+ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:24:13-100
+service#com.estimote.mgmtsdk.repackaged.dfu_v0_6_1.no.nordicsemi.android.dfu.DfuBaseService
+ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:26:9-119
+	android:name
+		ADDED from [com.estimote:mgmtsdk:1.0.8] C:\Users\iihsa\.android\build-cache\aa4db7ce31e8c09af2d6dd7a8ac11e7d94ba7610\output\AndroidManifest.xml:26:18-116
+service#com.estimote.coresdk.service.BeaconService
+ADDED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:24:13-70
+activity#com.estimote.coresdk.common.requirements.DefaultRequirementsCheckerCallback$Activity
+ADDED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:27:9-29:56
+	android:theme
+		ADDED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:29:13-53
+	android:name
+		ADDED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:28:13-112
+receiver#com.estimote.coresdk.scanning.scheduling.SystemAlarmManager$AlarmBroadcastReceiver
+ADDED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:31:9-119
+	android:name
+		ADDED from [com.estimote:coresdk:1.0.6] C:\Users\iihsa\.android\build-cache\2db5c04e6fcdabf448ab3efbcfa186a32b808d92\output\AndroidManifest.xml:31:19-116
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\iihsa\.android\build-cache\5207edffd94785eb0b8d12154623a2dcc6c191ac\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\iihsa\.android\build-cache\5207edffd94785eb0b8d12154623a2dcc6c191ac\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\iihsa\.android\build-cache\5207edffd94785eb0b8d12154623a2dcc6c191ac\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\iihsa\.android\build-cache\e5c43fe577511003481ace4b764fdde7e440ac66\output\AndroidManifest.xml:33:16-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\iihsa\.android\build-cache\a7cdc3c49a68b241f0f3827661ef9cab57bc20bd\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\iihsa\.android\build-cache\80c3c558d3f4e0c51d436a880229baeb839a6e9c\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\iihsa\.android\build-cache\263372c79e309ab33900ae282cc61417d1da45fe\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\iihsa\.android\build-cache\263372c79e309ab33900ae282cc61417d1da45fe\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\iihsa\.android\build-cache\263372c79e309ab33900ae282cc61417d1da45fe\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\iihsa\.android\build-cache\263372c79e309ab33900ae282cc61417d1da45fe\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\iihsa\.android\build-cache\263372c79e309ab33900ae282cc61417d1da45fe\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\iihsa\.android\build-cache\fdfca60abbb7838c65cdd1089d375d55ad0425b8\output\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\iihsa\.android\build-cache\9427832c4f5521d5f731a22b48055745e6176cea\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\iihsa\.android\build-cache\fdfca60abbb7838c65cdd1089d375d55ad0425b8\output\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\iihsa\.android\build-cache\fdfca60abbb7838c65cdd1089d375d55ad0425b8\output\AndroidManifest.xml:9:13-58
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\iihsa\.android\build-cache\45235219e28db5dc186b1d8f4ca78b26fe62cfbe\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\iihsa\.android\build-cache\45235219e28db5dc186b1d8f4ca78b26fe62cfbe\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\iihsa\.android\build-cache\45235219e28db5dc186b1d8f4ca78b26fe62cfbe\output\AndroidManifest.xml:21:52-75
+provider#android.support.v4.content.FileProvider
+ADDED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:12:9-20:20
+	android:authorities
+		ADDED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:14:13-80
+	android:grantUriPermissions
+		ADDED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:16:13-47
+	android:exported
+		ADDED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:13:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:17:13-19:53
+	android:resource
+		ADDED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:19:17-50
+	android:name
+		ADDED from [com.github.jkwiecien:EasyImage:1.3.1] C:\Users\iihsa\.android\build-cache\e16920c76288571d41d539562773c84e24af4563\output\AndroidManifest.xml:18:17-67
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:3.4.0] C:\Users\iihsa\.android\build-cache\13220326cddf652a694dac9d68260b41e5dfbfbe\output\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:3.4.0] C:\Users\iihsa\.android\build-cache\13220326cddf652a694dac9d68260b41e5dfbfbe\output\AndroidManifest.xml:26:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from E:\Project Selesai\project_spotme_android\app\src\main\AndroidManifest.xml:2:1-219:12 reason: com.daimajia.slider.library requested WRITE_EXTERNAL_STORAGE
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\iihsa\.android\build-cache\1e356150eec74d6078f4bcc56a988f3a2456c9a2\output\AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\iihsa\.android\build-cache\2b4226e94caf93b613a65898d080793fd1eec11e\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\iihsa\.android\build-cache\2b4226e94caf93b613a65898d080793fd1eec11e\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\iihsa\.android\build-cache\2b4226e94caf93b613a65898d080793fd1eec11e\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\iihsa\.android\build-cache\2b4226e94caf93b613a65898d080793fd1eec11e\output\AndroidManifest.xml:19:19-85

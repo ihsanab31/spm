@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dummy_mall">
+        <item>23 Paskal</item>
+        <item>Trans Studio Mall</item>
+        <item>Cihampelas Walk</item>
+        <item>Festival Citylink</item>
+    </string-array>
+    <string-array name="demo_array">
+        <item>Start Up</item>
+        <item>Adventure</item>
+        <item>Trekking</item>
+        <item>Scuba Diving</item>
+        <item>Food Festival</item>
+        <item>Mountain Biking</item>
+        <item>DJ Night</item>
+        <item>Live Concert</item>
+        <item>Conference</item>
+        <item>Start Up</item>
+        <item>Adventure</item>
+        <item>Trekking</item>
+        <item>Scuba Diving</item>
+        <item>Food Festival</item>
+        <item>Mountain Biking</item>
+        <item>DJ Night</item>
+        <item>Live Concert</item>
+        <item>Conference</item>
+        <item>Start Up</item>
+        <item>Adventure</item>
+        <item>Trekking</item>
+        <item>Scuba Diving</item>
+        <item>Food Festival</item>
+        <item>Mountain Biking</item>
+        <item>DJ Night</item>
+        <item>Live Concert</item>
+        <item>Conference</item>
+        <item>Start Up</item>
+        <item>Adventure</item>
+        <item>Trekking</item>
+        <item>Scuba Diving</item>
+        <item>Food Festival</item>
+        <item>Mountain Biking</item>
+        <item>DJ Night</item>
+        <item>Live Concert</item>
+        <item>Conference</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Project Selesai\project_spotme_android\app\libs\OnBarcode.AndroidBarcode.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59dd13e54178477c62a29f94057e09f6d536c109">
+        <dex dex="E:\Project Selesai\project_spotme_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\OnBarcode.AndroidBarcode_f2c4cbfedab9b715a5053cfade9a7253d3ac5e1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Project Selesai\project_spotme_android\ChipCloud\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c689b5a29f28cefe30ade9f78b31804743824f8f">
+        <dex dex="E:\Project Selesai\project_spotme_android\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_fb3671371ae2475109f469a8bc9721d44355d1d7\classes.dex" />
+    </item>
+
+</items>

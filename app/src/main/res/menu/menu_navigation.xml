@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_edit_profile"
+        android:icon="@drawable/profil"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/feeds"
+        android:icon="@drawable/ic_feed"
+        android:title="@string/feeds"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/history_parkir"
+        android:icon="@drawable/transaksi"
+        android:title="@string/transaksi"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+</menu>

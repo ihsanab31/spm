@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sumroch.spotme.activities.gridmenu.parkir.ParkirActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     >
+
+        <FrameLayout
+            android:id="@+id/container_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_buttondetail"
+            android:fitsSystemWindows="true">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="56dp"
+                android:layout_marginRight="56dp"
+                android:background="@android:color/transparent"
+                android:minHeight="?attr/actionBarSize"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                tools:listitem="@layout/view_spinner_light" />
+
+            <ImageView
+                android:id="@+id/back_event"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen8"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_back_white" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="right"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/iv_menu"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:src="@drawable/ic_three_dot"
+                    android:tint="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/iv_notif"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_below="@+id/main_container"
+                    android:elevation="@dimen/elevation_small"
+                    android:src="@drawable/bg_circle"
+                    android:tint="@color/color_red"
+                    app:layout_constraintLeft_toLeftOf="@id/iv_menu"
+                    app:layout_constraintRight_toRightOf="@id/iv_menu"
+                    app:layout_constraintTop_toTopOf="@id/iv_menu" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </FrameLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_data"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:theme="@style/ThemeDark"
+            app:cardCornerRadius="@dimen/small_margin"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container_toolbar" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

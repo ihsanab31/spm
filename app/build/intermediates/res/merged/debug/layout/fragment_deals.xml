@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D4D4">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nested_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/normal_margin">
+
+            <ViewAnimator
+                android:id="@+id/animator_promo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:layout_width="@dimen/small_progress_bar"
+                    android:layout_height="@dimen/small_progress_bar"
+                    android:layout_gravity="center" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/deals_view_pager_height">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/pager_promo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <com.viewpagerindicator.CirclePageIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:padding="@dimen/normal_margin"
+                        app:fillColor="@color/google_red" />
+                </RelativeLayout>
+            </ViewAnimator>
+
+            <RelativeLayout
+                android:id="@+id/flash_sale_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flash_sale_container_height"
+                android:background="@color/flash_sale_bg_color"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/normal_margin"
+                    android:text="@string/flash_sale"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_flash_sale_countdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/normal_margin"
+                    android:text="00:00:00"
+                    android:textColor="@color/flash_sale_countdown_color"
+                    android:textStyle="bold"
+                    tools:text="00:00:00" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/beacon_deals_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_beacon_deals_view_more"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/half_normal_margin"
+                android:background="@drawable/bg_button_red"
+                android:text="@string/view_more"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dummy_ads" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/normal_margin">
+
+                <ImageView
+                    android:id="@+id/iv_exclusive_deal_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/half_normal_margin" />
+
+                <TextView
+                    android:id="@+id/tv_exclusive_deals_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/iv_exclusive_deal_icon"
+                    android:paddingEnd="@dimen/half_normal_margin"
+                    android:paddingStart="@dimen/half_normal_margin"
+                    android:text="@string/exclusive_deals"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_exclusive_deals_title"
+                    android:layout_toEndOf="@+id/iv_exclusive_deal_icon"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/small_margin"
+                        android:paddingStart="@dimen/half_normal_margin"
+                        android:text="@string/with"
+                        android:textSize="@dimen/small_font_size" />
+
+                    <TextView
+                        android:id="@+id/tv_provider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23 Paskal Mall"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/small_font_size" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/exclusive_deals_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_exclusive_deals_view_more"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/half_normal_margin"
+                android:background="@drawable/bg_button_red"
+                android:text="@string/view_more"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>
